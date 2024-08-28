@@ -1,0 +1,24 @@
+.grid {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+}
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdd7e0;
+
+  .logo {
+    height: 80%;
+  }
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.version{
+  font-size: 12px;
+}
